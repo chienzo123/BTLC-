@@ -1,0 +1,11 @@
+bin\Debug\dictionary.exe
+bin\Debug\dictionary.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\dictionary.Properties.Resources.resources
+obj\Debug\dictionary.csproj.GenerateResource.Cache
+obj\Debug\dictionary.exe
+obj\Debug\dictionary.pdb
+obj\Debug\dictionary.AboutBox1.resources
+obj\Debug\dictionary.frmThemTu.resources
+bin\Debug\dictionary.exe.config
+obj\Debug\dictionary.Dictionary.resources

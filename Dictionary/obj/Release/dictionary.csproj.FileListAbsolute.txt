@@ -1,0 +1,11 @@
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\bin\Release\dictionary.exe.config
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\bin\Release\dictionary.exe
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\bin\Release\dictionary.pdb
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Release\dictionary.AboutBox1.resources
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Release\dictionary.Dictionary.resources
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Release\dictionary.frmThemTu.resources
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Release\dictionary.Properties.Resources.resources
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Release\dictionary.csproj.GenerateResource.Cache
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Release\dictionary.exe
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Release\dictionary.pdb

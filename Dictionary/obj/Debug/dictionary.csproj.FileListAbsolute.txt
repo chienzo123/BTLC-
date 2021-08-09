@@ -1,0 +1,71 @@
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\bin\Debug\dictionary.exe.config
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Debug\dictionary.exe
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Debug\dictionary.pdb
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\bin\Debug\dictionary.exe
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\bin\Debug\dictionary.pdb
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Debug\dictionary.AboutBox1.resources
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Debug\dictionary.frmThemTu.resources
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Debug\dictionary.Properties.Resources.resources
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Debug\dictionary.csproj.GenerateResource.Cache
+C:\Users\tanpham\Desktop\BaiTapLonC#\dictionary\dictionary\obj\Debug\dictionary.Dictionary.resources
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\bin\Debug\dictionary.exe.config
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\obj\Debug\dictionary.exe
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\obj\Debug\dictionary.pdb
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\bin\Debug\dictionary.exe
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\bin\Debug\dictionary.pdb
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\obj\Debug\dictionary.AboutBox1.resources
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\obj\Debug\dictionary.Dictionary.resources
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\obj\Debug\dictionary.frmThemTu.resources
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\obj\Debug\Dictionary.csproj.GenerateResource.Cache
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\obj\Debug\Dictionary.csprojResolveAssemblyReference.cache
+C:\Users\ntxuan\Desktop\Dictionary\Dictionary\bin\Debug\db\tudien
+D:\rêtrertret\Dictionary\Dictionary\bin\Debug\dictionary.exe.config
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\dictionary.exe
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\dictionary.pdb
+D:\rêtrertret\Dictionary\Dictionary\bin\Debug\dictionary.exe
+D:\rêtrertret\Dictionary\Dictionary\bin\Debug\dictionary.pdb
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\ResolveAssemblyReference.cache
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\dictionary.AboutBox1.resources
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\dictionary.Dictionary.resources
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\dictionary.frmThemTu.resources
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\GenerateResource.read.1.tlog
+D:\rêtrertret\Dictionary\Dictionary\obj\Debug\GenerateResource.write.1.tlog
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\bin\Debug\dictionary.exe.config
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\obj\Debug\dictionary.exe
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\obj\Debug\dictionary.pdb
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\bin\Debug\dictionary.exe
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\bin\Debug\dictionary.pdb
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\obj\Debug\ResolveAssemblyReference.cache
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\obj\Debug\dictionary.AboutBox1.resources
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\obj\Debug\dictionary.Dictionary.resources
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\obj\Debug\GenerateResource.read.1.tlog
+E:\Visual C#\Lam tu dien\Dictionary\Dictionary\obj\Debug\GenerateResource.write.1.tlog
+E:\Visual C#\Dictionary\Dictionary\bin\Debug\dictionary.exe.config
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\dictionary.exe
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\dictionary.pdb
+E:\Visual C#\Dictionary\Dictionary\bin\Debug\dictionary.exe
+E:\Visual C#\Dictionary\Dictionary\bin\Debug\dictionary.pdb
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\ResolveAssemblyReference.cache
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\dictionary.AboutBox1.resources
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\dictionary.Dictionary.resources
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\GenerateResource.read.1.tlog
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\GenerateResource.write.1.tlog
+E:\Visual C#\Dictionary\Dictionary\obj\Debug\dictionary.fomat.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\bin\Debug\dictionary.exe.config
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.exe
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.pdb
+E:\Visual C#\Dictionary_BaoCao\Dictionary\bin\Debug\dictionary.exe
+E:\Visual C#\Dictionary_BaoCao\Dictionary\bin\Debug\dictionary.pdb
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\ResolveAssemblyReference.cache
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\GenerateResource.read.1.tlog
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\GenerateResource.write.1.tlog
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.Them.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.TuDien.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.formQuanLy.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.formThongTin.resources

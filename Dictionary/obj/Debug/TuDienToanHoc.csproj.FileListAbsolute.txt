@@ -1,0 +1,63 @@
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\ResolveAssemblyReference.cache
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.formThongTin.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.formQuanLy.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\GenerateResource.read.1.tlog
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\GenerateResource.write.1.tlog
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.exe
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.pdb
+E:\Visual C#\Dictionary_BaoCao\Dictionary\bin\Debug\dictionary.exe.config
+E:\Visual C#\Dictionary_BaoCao\Dictionary\bin\Debug\dictionary.exe
+E:\Visual C#\Dictionary_BaoCao\Dictionary\bin\Debug\dictionary.pdb
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.formThem.resources
+E:\Visual C#\Dictionary_BaoCao\Dictionary\obj\Debug\dictionary.Main.resources
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\bin\Debug\dictionary.exe.config
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\dictionary.exe
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\dictionary.pdb
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\bin\Debug\dictionary.exe
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\bin\Debug\dictionary.pdb
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\ResolveAssemblyReference.cache
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\dictionary.Main.resources
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\dictionary.formThongTin.resources
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\dictionary.formQuanLy.resources
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\GenerateResource.read.1.tlog
+E:\Visual C#\TuDien_BaoCao C#\Dictionary\obj\Debug\GenerateResource.write.1.tlog
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.exe.config
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.exe
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.pdb
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.exe
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.pdb
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\ResolveAssemblyReference.cache
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.Main.resources
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.formThongTin.resources
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.formQuanLy.resources
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\GenerateResource.read.1.tlog
+E:\Visual C#\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.exe.config
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.exe
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.pdb
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.exe
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.pdb
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\TuDienToanHoc.csprojResolveAssemblyReference.cache
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.Main.resources
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.formThongTin.resources
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.formQuanLy.resources
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+C:\Users\NguyeNSang\Downloads\BAi Tap Lon C Shape\DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\TuDienToanHoc.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\TuDienToanHoc.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.exe
+C:\Users\Admin\Downloads\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.pdb
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.exe.config
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.exe
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\bin\Debug\dictionary.pdb
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\TuDienToanHoc.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.Main.resources
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.formThongTin.resources
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.formQuanLy.resources
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\TuDienToanHoc.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\TuDienToanHoc.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.exe
+C:\Users\Admin\Desktop\[sharecode.vn]Tu dien chuyen nghanh toan hoc\[sharecode.vn]DTC0951200120 - DINH CONG DUY - Tu dien chuyen nghanh toan hoc\Dictionary\obj\Debug\dictionary.pdb
