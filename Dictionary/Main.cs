@@ -249,6 +249,12 @@ namespace dictionary
         {
             //speakVN.Speak(txtDich.Text.ToString());
         }
+
+        private void dịchVănBảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DichVB dvb = new DichVB();
+            dvb.ShowDialog();
+        }
         #endregion
         //Mã sinh viên - Họ tên - Tên ứng dụng
     }
