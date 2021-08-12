@@ -13,8 +13,9 @@ namespace dictionary
     public partial class formQuanLy : Form
     {
         //chuỗi kết nối
-   
-        string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
+
+        //string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
+        string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
         // Tạo đối tượng kết nối
         SqlConnection conn = null;
         //doi tuong de dua dữ kiệu vào DataTable dtTuDien

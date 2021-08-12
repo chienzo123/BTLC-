@@ -19,7 +19,8 @@ namespace dictionary
         //SpeakText speakVN;
         //SpeakText speakUS;
 
-        string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
+        ///string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
+        string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
         // Tạo đối tượng kết nối
         SqlConnection conn = null;
         //doi tuong de dua dữ kiệu vào DataTable dtTuDien
@@ -201,6 +202,41 @@ namespace dictionary
         }
         #endregion
 
+        #region Lịch sử nghe
+        private void insertHistory()
+        {
+            conn = new SqlConnection(strConn);
+            String sql = "insert into History values('" + this.listBoxTuDien.Text + "',N'" + txtDich.Text + "')";
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch
+            {
+                conn.Close();
+                return;
+            }
+        }
+
+        private void deleteHistory()
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand("DELETE FROM History", conn);
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+            catch
+            {
+                return;
+            }
+        }
+        #endregion
+
+
         #region Xử lý button
         private void buttonQuanLy_Click(object sender, EventArgs e)
         {
@@ -217,11 +253,12 @@ namespace dictionary
         private void buttonThoat_Click(object sender, EventArgs e)
         {
             DialogResult traloi;
-                    traloi = MessageBox.Show("Bạn có chắc chắn thoát không?", "Trả lời ?", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-                    if (traloi == DialogResult.OK)
-                    {
-                        Application.Exit();
-                    }
+            traloi = MessageBox.Show("Bạn có chắc chắn thoát không?", "Trả lời ?", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (traloi == DialogResult.OK)
+            {
+                deleteHistory();
+                Application.Exit();
+            }
         }
 
         private void richTextBoxTuDien_TextChanged(object sender, EventArgs e)
@@ -236,7 +273,7 @@ namespace dictionary
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            insertHistory();
             //speakUS.Speak(textBoxTuDien.Text.ToString());
             int n = listBoxTuDien.SelectedIndex;
             
@@ -248,6 +285,17 @@ namespace dictionary
         private void btnTV_Click(object sender, EventArgs e)
         {
             //speakVN.Speak(txtDich.Text.ToString());
+        }
+
+        private void lịchSửToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LichSu ls = new LichSu();
+            ls.ShowDialog();
+        }
+
+        private void Main_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            deleteHistory();
         }
         #endregion
         //Mã sinh viên - Họ tên - Tên ứng dụng
