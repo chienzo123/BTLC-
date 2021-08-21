@@ -13,8 +13,9 @@ namespace dictionary
     public partial class formQuanLy : Form
     {
         //chuỗi kết nối
-   
-        string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
+
+        //string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
+        string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
         // Tạo đối tượng kết nối
         SqlConnection conn = null;
         //doi tuong de dua dữ kiệu vào DataTable dtTuDien
@@ -130,7 +131,7 @@ namespace dictionary
                     //lấy id của từ
                     string id = dgvTuDien.Rows[r].Cells[1].Value.ToString();
                     //cau lenh sql xoa
-                    cmd.CommandText = System.String.Concat("delete from TuDien where MaTu ='" + id + "' ");
+                    cmd.CommandText = "delete from TuDien where MaTu ='" + id + "' ";
                     cmd.CommandType = CommandType.Text;
 
                     DialogResult traloi;
