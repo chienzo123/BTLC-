@@ -14,7 +14,7 @@ namespace dictionary
         {
             Application.SetCompatibleTextRenderingDefault(true);
             Application.EnableVisualStyles();
-            Application.Run(new Main());
+            Application.Run(new FormLogin());
         }
     }
 }

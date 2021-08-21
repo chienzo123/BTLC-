@@ -131,7 +131,7 @@ namespace dictionary
                     //lấy id của từ
                     string id = dgvTuDien.Rows[r].Cells[1].Value.ToString();
                     //cau lenh sql xoa
-                    cmd.CommandText = System.String.Concat("delete from TuDien where MaTu ='" + id + "' ");
+                    cmd.CommandText = "delete from TuDien where MaTu ='" + id + "' ";
                     cmd.CommandType = CommandType.Text;
 
                     DialogResult traloi;

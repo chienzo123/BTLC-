@@ -66,6 +66,10 @@ namespace dictionary
         {
             try
             {
+                if(FormLogin.userLevel == "Customer")
+                {
+                    buttonQuanLy.Hide();
+                }
                 conn = new SqlConnection(strConn);
                 daTuDien = new SqlDataAdapter("select * from TuDien order by NghiaTA ASC", conn);
                 dtTuDien = new DataTable();
@@ -257,7 +261,9 @@ namespace dictionary
             if (traloi == DialogResult.OK)
             {
                 deleteHistory();
-                Application.Exit();
+                FormLogin lg = new FormLogin();
+                lg.Show();
+                this.Hide();
             }
         }
 
