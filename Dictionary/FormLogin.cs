@@ -12,7 +12,9 @@ namespace dictionary
 {
     public partial class FormLogin : Form
     {
-        string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
+        
+        /*tring strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";*/
+        string strConn = @"Data Source = DESKTOP-SBVPHLD;Initial Catalog=edit;Integrated Security=True";
         SqlConnection conn = null;
         public static string userLevel;
 

@@ -20,7 +20,8 @@ namespace dictionary
         //SpeakText speakUS;
 
         ///string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
-        string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
+        //string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
+        string strConn = @"Data Source = DESKTOP-SBVPHLD;Initial Catalog=edit;Integrated Security=True";
         // Tạo đối tượng kết nối
         SqlConnection conn = null;
         //doi tuong de dua dữ kiệu vào DataTable dtTuDien
@@ -71,12 +72,12 @@ namespace dictionary
                     buttonQuanLy.Hide();
                 }
                 conn = new SqlConnection(strConn);
-                daTuDien = new SqlDataAdapter("select * from TuDien order by NghiaTA ASC", conn);
+                daTuDien = new SqlDataAdapter("select * from tbl_edict_1 order by word ASC ", conn);
                 dtTuDien = new DataTable();
                 dtTuDien.Clear();
                 daTuDien.Fill(dtTuDien);
                 this.listBoxTuDien.DataSource = dtTuDien;
-                this.listBoxTuDien.DisplayMember = "NghiaTA";
+                this.listBoxTuDien.DisplayMember = "word";
             }
             catch
             {
@@ -90,12 +91,12 @@ namespace dictionary
         private void textBoxTuDien_TextChanged(object sender, EventArgs e)
         {
             conn = new SqlConnection(strConn);
-            daTuDien = new SqlDataAdapter("select * from TuDien where NghiaTA like '" + this.textBoxTuDien.Text + "%' order by NghiaTA ASC", conn);
+            daTuDien = new SqlDataAdapter("select * from tbl_edict_1 where word like '" + this.textBoxTuDien.Text + "%' ", conn);
             dtTuDien = new DataTable();
             dtTuDien.Clear();
             daTuDien.Fill(dtTuDien);
             listBoxTuDien.DataSource = dtTuDien;
-            this.listBoxTuDien.DisplayMember = "NghiaTA";
+            this.listBoxTuDien.DisplayMember = "word";
             if (listBoxTuDien.Items.Count > 0)
             {
                 listBoxTuDien.SelectedIndex = 0;
@@ -126,7 +127,7 @@ namespace dictionary
         private void listBoxTuDien_SelectedIndexChanged(object sender, EventArgs e)
         {
             conn = new SqlConnection(strConn);
-            daTuDien = new SqlDataAdapter("select * from TuDien where NghiaTA ='" + this.listBoxTuDien.Text + "'", conn);
+            daTuDien = new SqlDataAdapter("select * from tbl_edict_1 where word ='" + this.listBoxTuDien.Text + "'", conn);
             dtTuDien = new DataTable();
             dtTuDien.Clear();
             daTuDien.Fill(dtTuDien);
@@ -139,8 +140,8 @@ namespace dictionary
             }
             foreach(DataRow r in dtTuDien.Rows)
             {
-                txtDich.Text = r["NghiaTV"].ToString();
-                reader = r["NghiaTA"].ToString();
+                txtDich.Text = r["means"].ToString();
+                reader = r["word"].ToString();
             }
         
            
@@ -155,9 +156,9 @@ namespace dictionary
                        + "{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\nowidctlpar\\cf1\\b\\f0\\fs20 ";
 
 
-            string st2 = "\\cf2\\b Lo\\u7841?i t\\u7915?     :\\cf0   [LoaiTu]\\par"
+            string st2 = "\\cf2\\b Lo\\u7841?i t\\u7915?     :\\cf0   [wordtype]\\par"
                         + "\\cf3 Gi\\u7843?i th\\'edch :\\par"
-                        + "\\cf0\\b0      [giaithich]\\par"
+                        + "\\cf0\\b0      [spelling]\\par"
                         + "\\par";
 
 
@@ -167,8 +168,8 @@ namespace dictionary
             foreach (DataRow r in dtTuDien.Rows)
             {
                 tt = st2;
-                tt = tt.Replace("[LoaiTu]", DecodeString(r["LoaiTu"].ToString()));
-                tt = tt.Replace("[giaithich]", DecodeString(r["ViDu"].ToString()));
+                tt = tt.Replace("[wordtype]", DecodeString(r["wordtype"].ToString()));
+                tt = tt.Replace("[spelling]", DecodeString(r["spelling"].ToString()));
                 str += tt;
             }
             str = st1 + str + st3;
@@ -254,7 +255,7 @@ namespace dictionary
             tt.ShowDialog(); ;
         }
 
-        private void buttonThoat_Click(object sender, EventArgs e)
+        private void buttonThoat_Click(object sender, EventArgs e)      
         {
             DialogResult traloi;
             traloi = MessageBox.Show("Bạn có chắc chắn thoát không?", "Trả lời ?", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);

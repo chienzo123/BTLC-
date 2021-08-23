@@ -66,3 +66,18 @@ C:\Users\Admin\Desktop\BTL\Dictionary\obj\Debug\TuDien.csproj.CopyComplete
 C:\Users\Admin\Desktop\BTL\Dictionary\obj\Debug\dictionary.exe
 C:\Users\Admin\Desktop\BTL\Dictionary\obj\Debug\dictionary.pdb
 C:\Users\Admin\Desktop\BTL\Dictionary\obj\Debug\dictionary.FormLogin.resources
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\bin\Debug\dictionary.exe.config
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\bin\Debug\dictionary.exe
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\bin\Debug\dictionary.pdb
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\dictionary.FormLogin.resources
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\dictionary.LichSu.resources
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\dictionary.Main.resources
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\dictionary.formThongTin.resources
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\dictionary.formQuanLy.resources
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\dictionary.Properties.Resources.resources
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\TuDien.csproj.GenerateResource.cache
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\TuDien.csproj.CoreCompileInputs.cache
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\TuDien.csproj.CopyComplete
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\dictionary.exe
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\dictionary.pdb
+C:\Users\Gia Thinh\Desktop\Tài liệu học kỳ hè\Môn Lập trình Windows\BÀI TẬP LỚN\BTL_Full\BTLC-\Dictionary\obj\Debug\TuDien.csproj.AssemblyReference.cache

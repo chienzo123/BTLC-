@@ -13,7 +13,8 @@ namespace dictionary
     public partial class LichSu : Form
     {
         ///string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
-        string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
+        //string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
+        string strConn = @"Data Source = DESKTOP-SBVPHLD;Initial Catalog=edit;Integrated Security=True";
         SqlConnection conn;
 
         public LichSu()

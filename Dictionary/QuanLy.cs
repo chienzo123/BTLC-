@@ -15,7 +15,8 @@ namespace dictionary
         //chuỗi kết nối
 
         //string strConn = @"Data Source=.\SQLEXPRESS;Initial Catalog=TuDien;Integrated Security=True";
-        string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
+        //string strConn = @"Data Source=ADMIN\PHUONGTAN;Initial Catalog=TuDien;Integrated Security=True";
+        string strConn = @"Data Source = DESKTOP-SBVPHLD;Initial Catalog=edit;Integrated Security=True";
         // Tạo đối tượng kết nối
         SqlConnection conn = null;
         //doi tuong de dua dữ kiệu vào DataTable dtTuDien
@@ -25,6 +26,7 @@ namespace dictionary
         DataTable dtTuDien = null;
         DataTable dtLoaiTu = null;
 
+        int n = 0;
         bool Them;
 
         public formQuanLy()
@@ -54,12 +56,13 @@ namespace dictionary
                 // Khởi đong ket noi
                 conn = new SqlConnection(strConn);
                 //chuyển dữ liệu lên DataTable dtTuDien
-                daTuDien = new SqlDataAdapter("select * from TuDien order by NghiaTA ASC", conn);
+                daTuDien = new SqlDataAdapter("select * from tbl_edict_1 ", conn);
                 dtTuDien = new DataTable();
                 dtTuDien.Clear();
                 daTuDien.Fill(dtTuDien);
                 //Đưa dữ liieu lên DataGridView
                 dgvTuDien.DataSource = dtTuDien;
+                n = dgvTuDien.Rows.Count + 96;
                 for (int i = 0; i < dtTuDien.Rows.Count; i++)
                 {
                     dgvTuDien.Rows[i].Cells[0].Value = (i + 1);
@@ -82,7 +85,7 @@ namespace dictionary
             // Khởi đong ket noi
             conn = new SqlConnection(strConn);
             //chuyển dữ liệu lên DataTable dtTuDien
-            daTuDien = new SqlDataAdapter("select MaTu,NghiaTA,LoaiTu, NghiaTV, ViDu from TuDien order by NghiaTA ASC", conn);
+            daTuDien = new SqlDataAdapter("select idx,word,wordtype, spelling, means from tbl_edict_1", conn);
             dtTuDien = new DataTable();
             dtTuDien.Clear();
             daTuDien.Fill(dtTuDien);
@@ -131,11 +134,11 @@ namespace dictionary
                     //lấy id của từ
                     string id = dgvTuDien.Rows[r].Cells[1].Value.ToString();
                     //cau lenh sql xoa
-                    cmd.CommandText = "delete from TuDien where MaTu ='" + id + "' ";
+                    cmd.CommandText = "delete from tbl_edict_1 where idx ='" + id + "' ";
                     cmd.CommandType = CommandType.Text;
 
                     DialogResult traloi;
-                    traloi = MessageBox.Show("Chắc không?", "Trả lời ?", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                    traloi = MessageBox.Show("Bạn có chắc muốn xóa từ này không?", "Trả lời ?", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                     if (traloi == DialogResult.OK)
                     {
                         //thuc hien cau lenh sql
@@ -174,13 +177,13 @@ namespace dictionary
             this.buttonXoa.Enabled = false;
             this.buttonThoat.Enabled = false;
             conn = new SqlConnection(strConn);
-            daLoaiTu = new SqlDataAdapter("select * from TuDien", conn);
+            daLoaiTu = new SqlDataAdapter("select * from LoaiTu", conn);
             dtLoaiTu = new DataTable();
             dtLoaiTu.Clear();
             daLoaiTu.Fill(dtLoaiTu);
             this.comboBoxLoaiTu.DataSource = dtLoaiTu;
-            this.comboBoxLoaiTu.DisplayMember = "LoaiTu";
-            this.comboBoxLoaiTu.ValueMember = "LoaiTu";
+            this.comboBoxLoaiTu.DisplayMember = "wordtype";
+            this.comboBoxLoaiTu.ValueMember = "wordtype";
             this.textBoxTuTiengAnh.Focus();
         }
         #endregion
@@ -191,14 +194,14 @@ namespace dictionary
             Them = false;
             //dua du lieu len cbb
             conn = new SqlConnection(strConn);
-            daLoaiTu = new SqlDataAdapter("select * from TuDien", conn);
+            daLoaiTu = new SqlDataAdapter("select * from LoaiTu", conn);
             dtLoaiTu = new DataTable();
             dtLoaiTu.Clear();
             daLoaiTu.Fill(dtLoaiTu);
 
             this.comboBoxLoaiTu.DataSource = dtLoaiTu;
-            this.comboBoxLoaiTu.DisplayMember = "LoaiTu";
-            this.comboBoxLoaiTu.ValueMember = "LoaiTu";
+            this.comboBoxLoaiTu.DisplayMember = "wordtype";
+            this.comboBoxLoaiTu.ValueMember = "wordtype";
 
             this.panelQuanLy.Enabled = true;
             if (dgvTuDien.Rows.Count <= 1)
@@ -213,7 +216,8 @@ namespace dictionary
                 //load thông tin len panel
                 this.textBoxTuTiengAnh.Text = dgvTuDien.Rows[r].Cells[2].Value.ToString();
                 this.comboBoxLoaiTu.SelectedValue = dgvTuDien.Rows[r].Cells[3].Value.ToString();
-                this.richTextBoxNghiaTiengViet.Text = dgvTuDien.Rows[r].Cells[4].Value.ToString();
+                this.txtPhienAm.Text = dgvTuDien.Rows[r].Cells[4].Value.ToString();
+                this.richTextBoxNghiaTiengViet.Text = dgvTuDien.Rows[r].Cells[5].Value.ToString();
                 //cho phép các nút hoạt động
                 this.buttonLuu.Enabled = true;
                 this.buttonHuy.Enabled = true;
@@ -238,6 +242,7 @@ namespace dictionary
             {
                 try
                 {
+                    n = n++;
                     if (textBoxTuTiengAnh.Text.ToString() == "")
                     {
                         MessageBox.Show("Bạn chưa nhập từ tiếng anh hoặc tồn tại, nhập lại !", "Thông báo !", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -255,7 +260,7 @@ namespace dictionary
                         SqlCommand cmd = new SqlCommand();
                         cmd.Connection = conn;
                         cmd.CommandType = CommandType.Text;
-                        cmd.CommandText = System.String.Concat("insert into TuDien values(" + "N'" + this.textBoxTuTiengAnh.Text.ToString() + "',N'" + this.comboBoxLoaiTu.SelectedValue.ToString() + "',N'" + this.richTextBoxNghiaTiengViet.Text.ToString() + "',N'"+this.txtPhienAm.Text.ToString() +"') ");
+                        cmd.CommandText = System.String.Concat("INSERT [tbl_edict_1] ([idx], [word], [wordtype], [spelling], [means]) VALUES ( " + n++ + " , N'" + textBoxTuTiengAnh.Text.ToString() + "', N'" + comboBoxLoaiTu.Text.ToString() + "', N'" + txtPhienAm.Text.ToString() + "', N' " + richTextBoxNghiaTiengViet.Text.ToString() + "')");
                         cmd.CommandType = CommandType.Text;
                         cmd.ExecuteNonQuery();
                         loadDaTa();
@@ -292,7 +297,7 @@ namespace dictionary
                         string id = dgvTuDien.Rows[r].Cells[1].Value.ToString();
                         //cau lenh sql
 
-                        cmd.CommandText = System.String.Concat("update TuDien set NghiaTA ='" + this.textBoxTuTiengAnh.Text.ToString() + "',LoaiTu=N'" + this.comboBoxLoaiTu.SelectedValue.ToString() + "',NghiaTV=N'" + this.richTextBoxNghiaTiengViet.Text.ToString() + "',ViDu=N'" + this.txtPhienAm.Text.ToString() + "' where id='" + id + "'");
+                        cmd.CommandText = System.String.Concat("update tbl_edict_1 set word ='" + this.textBoxTuTiengAnh.Text.ToString() + "',wordtype=N'" + this.comboBoxLoaiTu.SelectedValue.ToString() + "',means=N'" + this.richTextBoxNghiaTiengViet.Text.ToString() + "',spelling=N'" + this.txtPhienAm.Text.ToString() + "' where idx='" + id + "'");
                         cmd.CommandType = CommandType.Text;
                         cmd.ExecuteNonQuery();
                         loadDaTa();
